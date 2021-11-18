@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width:1440px;
+    }
+    .container{
+      width:70%;
+      height:80%;
+      background-image: url("images/bg-desktop.svg");
+      background-color: #6C4AB7;
+    }
+    .container-2{
+      display: flex;
+    }
+    .mock{
+      margin-left: 60px;
+      height:90%;
+      width:500px;
+      margin-top: 50px;
+      margin-right: 0;
+    }
+    .logo{
+      margin-left: 60px;
+      margin-top: 40px;
+      width: 165px;
+    }
+    .build{
+      color: #FFFFFF;
+      font-weight: 30px;
+      font-size: 24px;
+      width: 50%;
+      padding-left: 60px;
+      padding-top: 110px;
+    }
+    .hud{
+      color: #FFFFFF;
+      font-size: 14.5px;
+      padding-left: 60px;
+      padding-top: 20px;
+      padding-right: 25px;
+    }
+    .reg{
+      border: 1px solid #FFFFFF;
+      width:100px;
+      /* height:30px; */
+      padding:10px;
+      border-radius: 30px;
+      text-align: center;
+      color: #6C4AB7;
+      font-size: 14px;
+      background-color: #FFFFFF;
+      margin-top: 20px;
+      margin-left: 60px;
+      box-shadow: 4px 4px 4px #4C3B6F;
+      
+
+    }
+    .reg:hover{
+      background-color:#A349D0 ;
+      border:1px solid #A349D0;
+      color: #FFFFFF;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div><img class="logo" src="images/logo.svg"></div>
+    <div class="container-2">
+      <div><img class="mock" src="images/illustration-mockups.svg"></div>
+      <div>
+        <div class="build">Build The Community Your Fans Will Love</div>
+        <div class="hud">
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+          Create connections with your users as you engage in genuine discussion.
+        </div> 
+      <div class="reg">Register</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+</html>
